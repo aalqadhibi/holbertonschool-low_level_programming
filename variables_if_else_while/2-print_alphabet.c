@@ -1,21 +1,19 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase
+ * main - Entry point
  *
- * Return: Always 0 (Success)
- */
-
+ * Description: for loop
+ *
+ * Return: Always 0 (success)
+*/
 int main(void)
 {
+	char ch;
 
-	char x;
-
-
-	for (x='a';x<='z';x++)
-		putchar(x);
-	putchar('/n');
-
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
-
 }
